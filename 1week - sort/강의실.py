@@ -22,6 +22,8 @@ for i in range(1, n):
 print(len(room))
 
 
+#못 풀겠다 꾀 꼬 리
+
 
 # import heapq
 # n = int(input())
