@@ -1,10 +1,7 @@
-num1 = int(input())
-num2 = input()
+x = int(input())
+y = int(input())
 
-
-b=0
-
-for i in range(3,0,-1):
-   print(num1 * int(num2[i-1]))
-   
-print(num1 * int(num2))
+print(x * (y%10))
+print(x * ((y%100)//10))
+print(x * (y//100))
+print(x*y)
